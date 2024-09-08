@@ -1,4 +1,4 @@
-module neojex
+module github.com/jexroid/neojex
 
 go 1.22.5
 

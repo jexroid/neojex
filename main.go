@@ -1,9 +1,10 @@
 package main
 
 import (
-	"neojex/cmd"
-	"neojex/internal"
 	"os"
+
+	"github.com/jexroid/neojex/cmd"
+	"github.com/jexroid/neojex/internal"
 
 	"github.com/fatih/color"
 )

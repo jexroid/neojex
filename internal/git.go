@@ -2,7 +2,8 @@ package internal
 
 import (
 	"log"
-	"neojex/utils"
+
+	"github.com/jexroid/neojex/utils"
 
 	"github.com/charmbracelet/huh/spinner"
 )

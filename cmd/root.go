@@ -2,7 +2,8 @@ package cmd
 
 import (
 	"log"
-	"neojex/pkg"
+
+	"github.com/jexroid/neojex/pkg"
 
 	"github.com/charmbracelet/bubbles/key"
 	"github.com/charmbracelet/huh"

@@ -21,7 +21,7 @@ builds:
       - windows
       - darwin
     ldflags:
-      - -s -w -X github.com/jexroid/neojex/cmd.Version={{.Version}}
+      - -s -w -X github.com/jexroid/github.com/jexroid/neojex/cmd.Version={{.Version}}
 
 archives:
   - format: tar.gz
