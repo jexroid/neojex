@@ -3,23 +3,20 @@ module neojex
 go 1.22.5
 
 require (
-	github.com/charmbracelet/bubbletea v1.1.0
 	github.com/charmbracelet/huh v0.6.0
+	github.com/fatih/color v1.17.0
 )
 
 require (
-	github.com/fatih/color v1.17.0 // indirect
-	github.com/inconshreveable/mousetrap v1.1.0 // indirect
+	github.com/charmbracelet/bubbletea v1.1.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
-	github.com/spf13/cobra v1.8.1 // indirect
-	github.com/spf13/pflag v1.0.5 // indirect
 )
 
 require (
 	github.com/atotto/clipboard v0.1.4 // indirect
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
 	github.com/catppuccin/go v0.2.0 // indirect
-	github.com/charmbracelet/bubbles v0.20.0 // indirect
+	github.com/charmbracelet/bubbles v0.20.0
 	github.com/charmbracelet/huh/spinner v0.0.0-20240906163306-a9285a0ef8a3
 	github.com/charmbracelet/lipgloss v0.13.0 // indirect
 	github.com/charmbracelet/x/ansi v0.2.3 // indirect
