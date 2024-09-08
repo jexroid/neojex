@@ -29,3 +29,5 @@ tmp/
 main
 main.exe
 *templ.go
+
+dist/

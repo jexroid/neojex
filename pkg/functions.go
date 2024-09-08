@@ -24,7 +24,7 @@ func GetRepos() ([]Repo, gotReposErrMsg) {
 		return gotReposSuccessMsg(nil), gotReposErrMsg(err)
 	}
 
-	GH_TOKEN := os.Getenv("GH_TOKEN")
+	GH_TOKEN := os.Getenv("GITHUB_TOKEN")
 
 	req.Header.Add("Accept", "application/vnd.github+json")
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", GH_TOKEN))
