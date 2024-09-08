@@ -8,7 +8,7 @@ import (
 	"github.com/fatih/color"
 )
 
-var version string
+var version string = "0.1.0"
 
 func main() {
 	_, available := os.LookupEnv("GH_TOKEN")
